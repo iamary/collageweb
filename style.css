@@ -3,7 +3,7 @@ body{
     background-color: azure;
 }
 header{
-    background-color: aqua;
+
     background-image: url(back.png);
     
     color: black;
@@ -36,6 +36,7 @@ nav a:hover{
 .column{
     float: left;
     padding: 20px;
+    width: 30%;
 
 }   
 .column.main{
@@ -43,8 +44,14 @@ nav a:hover{
     padding-left: 20px;
     padding-right: 20px;
 
+
 }.column.last{
-    width: 25%;
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
 }
 footer p{
     text-align: center;
@@ -69,8 +76,8 @@ fieldset{
 }
 div{
     
-        background-color: #4CAF50; /* Green */
-        background-image: url(himan.webp);
+        
+        background-image: url(window.jpg);
         border: none;
         color: white;
         padding: 15px 32px ;
@@ -84,10 +91,46 @@ div{
     
 
 }
-div12{
-    
+.hero{
+    display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
 }
 
+p12{background-color: rgb(104, 156, 140);
+    text-align: center;
+    color: aliceblue;
+    text-overflow: ellipsis;
+    text-decoration: solid;
+    text-shadow: 2cm;
+    padding-inline-start: 75%;
+    text: size adjust 2px;;
+
+
+
+}
+
+p1{background-color: rgb(104, 156, 140);
+    text-align: center;
+    color: aliceblue;
+    text-overflow: ellipsis;
+    text-decoration: solid;
+    text-shadow: 2cm;
+    padding-inline-start: 50%;
+
+
+
+}p2{background-color: rgb(104, 156, 140);
+    text-align: center;
+    color: aliceblue;
+    text-overflow: ellipsis;
+    text-decoration: solid;
+    text-shadow: 2cm;
+    padding-inline-start: 25%;
+
+
+
+}
 
 
 
